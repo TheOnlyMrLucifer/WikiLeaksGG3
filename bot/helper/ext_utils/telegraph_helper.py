@@ -72,10 +72,10 @@ class TelegraphHelper:
                     nxt_page += 1
             self.edit_page(
                 path = path[prev_page],
-                title = 'Mirror-leech-bot Torrent Search',
+                title = 'WikiLeaks Leech Bot Help CMDS',
                 content=content
             )
         return
 
 
-telegraph=TelegraphHelper('Mirror-Leech-Telegram-Bot', 'https://github.com/TheOnlyMrLucifer/WikiLeaksGG2')
+telegraph=TelegraphHelper('WikiLeaks Leech Bot', 'https://github.com/TheOnlyMrLucifer/WikiLeaksGG3')
