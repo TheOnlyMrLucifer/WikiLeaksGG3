@@ -66,7 +66,7 @@ def stats(update, context):
 def start(update, context):
     buttons = ButtonMaker()
     buttons.buildbutton("Owner", "https://t.me/TheOnlyMrLucifer")
-    buttons.buildbutton("WikiLeaks GateWay", "https://t.me/WikiLeaksGateWay")
+    buttons.buildbutton("Kings And Queens Promo's", "https://t.me/+EHrG6E0U3pwyMmRk")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
